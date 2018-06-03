@@ -11,11 +11,19 @@ A retail store wants to build a weekly sales forecast model for two of its store
 The R script includes code for the following visualizations and models-
 
 Creating time series object and plotting it
+
 Building Linear Expotential Smoothing Model for both Tucson and Pheonix
+
 Calculating Mean Absolute Percentage Error
+
 Checking Stationarity through plots
+
 Building Autoregressive Models for Tucson and Pheonix
+
 ACF and PACF plots of residuals
+
 White noise Tests and plots
+
 Forecasting sales
+
 Checking Accuracy on the validation dataset
