@@ -130,10 +130,6 @@ ts.plot(sales_ph, pred$pred, lty = c(1,3))
 accuracy(Ph.forecast, Test.ph)
 accuracy(LES.ph, Test.ph)
 
-
-
-##########################
-
 # Building an Autoregressive Model - Tuscon (deterministics trend- fit lin reg)
 model = arima(sales_tu, order = c(0,0,0), xreg = c(1:244))
 plot(model$residuals, main = "Plot of the differenced series (Tuscan Sales)", ylab = "Tuscan Sales", xlab = "Weeks")
